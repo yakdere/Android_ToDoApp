@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ToDoActivity" >
+
+    <ListView
+        android:id="@+id/LVItems"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/AddButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="addToDoItem"
+        android:text="@string/AddButton" />
+
+    <EditText
+        android:id="@+id/ETNewItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/AddButton"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/AddButton"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:hint="@string/AddNewItemHint" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

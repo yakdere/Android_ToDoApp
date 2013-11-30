@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Your ToDos List</string>
+    <string name="action_settings">Settings</string>
+    <string name="AddButton">ADD</string>
+    <string name="AddNewItemHint">I want to...</string>
+
+</resources>
