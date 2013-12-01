@@ -5,7 +5,7 @@ This basic ToDo Application implemented for Android. Features:
 1. User can add a new ToDo item via Add Button
 2. User can remove existing item keep pressing it. 
 
-![ScreenShot](https://github.com/yakdere/Android_ToDoApp/blob/master/TodoApp.png)
+![ScreenShot](https://github.com/yakdere/Android_ToDoApp/blob/master/TodoApp.png?raw=true)
 
 Technical challenges:
 1. Using soft keyboard
